@@ -10,4 +10,4 @@ export async function getUser(): Promise<{
   1. Extract the type of the returned value from Promise.
 */
 
-type User = Awaited<ReturnType<typeof getUser>>; //{id: number, name: string}
+type User = unkown; //{id: number, name: string}
